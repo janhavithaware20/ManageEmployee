@@ -63,6 +63,12 @@ public:
         return m_strSkills;
     }
     
+    bool operator >(CEmployee obj) const {
+        return(m_dSalary >obj.m_dSalary);
+    }
+    bool operator<(CEmployee obj) const{
+      return(m_iEmpId < obj.m_iEmpId);
+    }
   
     //read user input
     void read_x(std::istream& in) {

@@ -129,11 +129,20 @@
   <ItemGroup>
     <ClCompile Include="CEmployee.cpp" />
     <ClCompile Include="CPerson.cpp" />
+    <ClCompile Include="CSVWriter.cpp" />
     <ClCompile Include="ManageEmployee.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CEmployee.h" />
     <ClInclude Include="CPerson.h" />
+    <ClInclude Include="CSVWriter.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="list.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ManageEmployee.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
